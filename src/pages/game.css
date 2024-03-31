@@ -1,0 +1,25 @@
+.contain {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  /* background-image: url(../assets/image.jpg); */
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}

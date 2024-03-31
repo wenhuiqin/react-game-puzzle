@@ -1,0 +1,20 @@
+.panel {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, purple, pink); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.pretty-button {  
+  margin: 5px;
+}  
+
+.custom-select {   
+  width: 100px;
+  background: #fff;
+  border-radius: 6px;
+}  
